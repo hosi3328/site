@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fale Conosco - Help Automação</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="galeria/LOGO-REDUZIDO.png" alt="Logo Help Automação" class="logo" />
+    </a>
+    <h1>Fale Conosco</h1>
+  </header>
+
+  <main class="form-container">
+    <form action="https://formsubmit.co/helpautomacaoserv@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://hosi3328.github.io/help-automacao/obrigado.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required placeholder="Seu nome completo" />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required placeholder="seu@email.com" />
+
+      <label for="subject">Assunto:</label>
+      <input type="text" id="subject" name="subject" required placeholder="Ex: Orçamento de automação" />
+
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Help Automação - Montes Claros, MG</p>
+  </footer>
+</body>
+</html>
